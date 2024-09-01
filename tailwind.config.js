@@ -11,17 +11,17 @@ module.exports = withMT({
   theme: {
     extend: {
       colors: {
-        mainColor: '#00f'
+        mainColor: "#00f",
       },
-      keyframes:{
-        moveRight:{
-          "0%":{transform: "translateX(0)"},
-          "50%":{ transform: "translateX(15px)"},
-          "100%":{ transform: "translateX(0px)"},
-        }
+      keyframes: {
+        moveRight: {
+          "0%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(15px)" },
+          "100%": { transform: "translateX(0px)" },
+        },
       },
-      animation:{
-        moveRight: "moveRight 1s ease-in-out infinite"
+      animation: {
+        moveRight: "moveRight 1s ease-in-out infinite",
       },
     },
   },
